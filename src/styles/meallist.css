@@ -1,0 +1,48 @@
+#meallist {
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+}
+
+#meallist>.placeholder {
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.5);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.col-md-3 {
+    margin-bottom: 18px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.btn {
+    background-color: #642112 !important;
+    border: none !important;
+}
+
+.meal-img {
+    overflow: hidden;
+}
+
+
+.meal-info {
+    padding: 24px;
+}
+
+.meal-info>h2 {
+    font-weight: lighter;
+}
+
+.meal-info>p {
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10;
+    /* number of lines to show */
+}

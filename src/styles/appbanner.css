@@ -1,0 +1,12 @@
+.app-banner {
+    background-image: url('/src/img/banner.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 200px;
+}
